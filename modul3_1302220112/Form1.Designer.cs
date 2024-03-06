@@ -28,158 +28,168 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button4 = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            label1 = new Label();
+            but1 = new Button();
+            but2 = new Button();
+            but3 = new Button();
+            butPlus = new Button();
+            butEqual = new Button();
+            but0 = new Button();
+            but4 = new Button();
+            but5 = new Button();
+            but6 = new Button();
+            but7 = new Button();
+            but8 = new Button();
+            but9 = new Button();
+            txtBoxOut = new TextBox();
             SuspendLayout();
             // 
-            // button4
+            // but1
             // 
-            button4.Location = new Point(178, 234);
-            button4.Name = "button4";
-            button4.Size = new Size(48, 33);
-            button4.TabIndex = 3;
-            button4.Text = "1";
-            button4.UseVisualStyleBackColor = true;
+            but1.Location = new Point(178, 234);
+            but1.Name = "but1";
+            but1.Size = new Size(48, 33);
+            but1.TabIndex = 3;
+            but1.Text = "1";
+            but1.UseVisualStyleBackColor = true;
+            but1.Click += but1_Click;
             // 
-            // button1
+            // but2
             // 
-            button1.Location = new Point(223, 234);
-            button1.Name = "button1";
-            button1.Size = new Size(48, 33);
-            button1.TabIndex = 4;
-            button1.Text = "2";
-            button1.UseVisualStyleBackColor = true;
+            but2.Location = new Point(223, 234);
+            but2.Name = "but2";
+            but2.Size = new Size(48, 33);
+            but2.TabIndex = 4;
+            but2.Text = "2";
+            but2.UseVisualStyleBackColor = true;
+            but2.Click += but2_Click;
             // 
-            // button2
+            // but3
             // 
-            button2.Location = new Point(266, 234);
-            button2.Name = "button2";
-            button2.Size = new Size(48, 33);
-            button2.TabIndex = 5;
-            button2.Text = "3";
-            button2.UseVisualStyleBackColor = true;
+            but3.Location = new Point(266, 234);
+            but3.Name = "but3";
+            but3.Size = new Size(48, 33);
+            but3.TabIndex = 5;
+            but3.Text = "3";
+            but3.UseVisualStyleBackColor = true;
+            but3.Click += but3_Click;
             // 
-            // button3
+            // butPlus
             // 
-            button3.Location = new Point(178, 195);
-            button3.Name = "button3";
-            button3.Size = new Size(48, 33);
-            button3.TabIndex = 6;
-            button3.Text = "+";
-            button3.UseVisualStyleBackColor = true;
+            butPlus.Location = new Point(178, 195);
+            butPlus.Name = "butPlus";
+            butPlus.Size = new Size(48, 33);
+            butPlus.TabIndex = 6;
+            butPlus.Text = "+";
+            butPlus.UseVisualStyleBackColor = true;
+            butPlus.Click += button3_Click;
             // 
-            // button5
+            // butEqual
             // 
-            button5.Location = new Point(223, 195);
-            button5.Name = "button5";
-            button5.Size = new Size(48, 33);
-            button5.TabIndex = 7;
-            button5.Text = "=";
-            button5.UseVisualStyleBackColor = true;
+            butEqual.Location = new Point(223, 195);
+            butEqual.Name = "butEqual";
+            butEqual.Size = new Size(48, 33);
+            butEqual.TabIndex = 7;
+            butEqual.Text = "=";
+            butEqual.UseVisualStyleBackColor = true;
+            butEqual.Click += butEqual_Click;
             // 
-            // button6
+            // but0
             // 
-            button6.Location = new Point(266, 195);
-            button6.Name = "button6";
-            button6.Size = new Size(48, 33);
-            button6.TabIndex = 8;
-            button6.Text = "0";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
+            but0.Location = new Point(266, 195);
+            but0.Name = "but0";
+            but0.Size = new Size(48, 33);
+            but0.TabIndex = 8;
+            but0.Text = "0";
+            but0.UseVisualStyleBackColor = true;
+            but0.Click += button6_Click;
             // 
-            // button7
+            // but4
             // 
-            button7.Location = new Point(178, 273);
-            button7.Name = "button7";
-            button7.Size = new Size(48, 33);
-            button7.TabIndex = 9;
-            button7.Text = "4";
-            button7.UseVisualStyleBackColor = true;
+            but4.Location = new Point(178, 273);
+            but4.Name = "but4";
+            but4.Size = new Size(48, 33);
+            but4.TabIndex = 9;
+            but4.Text = "4";
+            but4.UseVisualStyleBackColor = true;
+            but4.Click += but4_Click;
             // 
-            // button8
+            // but5
             // 
-            button8.Location = new Point(223, 273);
-            button8.Name = "button8";
-            button8.Size = new Size(48, 33);
-            button8.TabIndex = 10;
-            button8.Text = "5";
-            button8.UseVisualStyleBackColor = true;
+            but5.Location = new Point(223, 273);
+            but5.Name = "but5";
+            but5.Size = new Size(48, 33);
+            but5.TabIndex = 10;
+            but5.Text = "5";
+            but5.UseVisualStyleBackColor = true;
+            but5.Click += but5_Click;
             // 
-            // button9
+            // but6
             // 
-            button9.Location = new Point(266, 273);
-            button9.Name = "button9";
-            button9.Size = new Size(48, 33);
-            button9.TabIndex = 11;
-            button9.Text = "6";
-            button9.UseVisualStyleBackColor = true;
+            but6.Location = new Point(266, 273);
+            but6.Name = "but6";
+            but6.Size = new Size(48, 33);
+            but6.TabIndex = 11;
+            but6.Text = "6";
+            but6.UseVisualStyleBackColor = true;
+            but6.Click += but6_Click;
             // 
-            // button10
+            // but7
             // 
-            button10.Location = new Point(178, 312);
-            button10.Name = "button10";
-            button10.Size = new Size(48, 33);
-            button10.TabIndex = 12;
-            button10.Text = "7";
-            button10.UseVisualStyleBackColor = true;
+            but7.Location = new Point(178, 312);
+            but7.Name = "but7";
+            but7.Size = new Size(48, 33);
+            but7.TabIndex = 12;
+            but7.Text = "7";
+            but7.UseVisualStyleBackColor = true;
+            but7.Click += but7_Click;
             // 
-            // button11
+            // but8
             // 
-            button11.Location = new Point(223, 312);
-            button11.Name = "button11";
-            button11.Size = new Size(48, 33);
-            button11.TabIndex = 13;
-            button11.Text = "8";
-            button11.UseVisualStyleBackColor = true;
+            but8.Location = new Point(223, 312);
+            but8.Name = "but8";
+            but8.Size = new Size(48, 33);
+            but8.TabIndex = 13;
+            but8.Text = "8";
+            but8.UseVisualStyleBackColor = true;
+            but8.Click += but8_Click;
             // 
-            // button12
+            // but9
             // 
-            button12.Location = new Point(266, 312);
-            button12.Name = "button12";
-            button12.Size = new Size(48, 33);
-            button12.TabIndex = 14;
-            button12.Text = "9";
-            button12.UseVisualStyleBackColor = true;
+            but9.Location = new Point(266, 312);
+            but9.Name = "but9";
+            but9.Size = new Size(48, 33);
+            but9.TabIndex = 14;
+            but9.Text = "9";
+            but9.UseVisualStyleBackColor = true;
+            but9.Click += but9_Click;
             // 
-            // label1
+            // txtBoxOut
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(198, 157);
-            label1.Name = "label1";
-            label1.Size = new Size(100, 21);
-            label1.TabIndex = 15;
-            label1.Text = "Label Output";
+            txtBoxOut.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtBoxOut.Location = new Point(178, 154);
+            txtBoxOut.Name = "txtBoxOut";
+            txtBoxOut.Size = new Size(136, 29);
+            txtBoxOut.TabIndex = 16;
+            txtBoxOut.TextChanged += txtBoxOut_TextChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(label1);
-            Controls.Add(button12);
-            Controls.Add(button11);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(button4);
+            Controls.Add(txtBoxOut);
+            Controls.Add(but9);
+            Controls.Add(but8);
+            Controls.Add(but7);
+            Controls.Add(but6);
+            Controls.Add(but5);
+            Controls.Add(but4);
+            Controls.Add(but0);
+            Controls.Add(butEqual);
+            Controls.Add(butPlus);
+            Controls.Add(but3);
+            Controls.Add(but2);
+            Controls.Add(but1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -187,18 +197,18 @@
         }
 
         #endregion
-        private Button button4;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Label label1;
+        private Button but1;
+        private Button but2;
+        private Button but3;
+        private Button butPlus;
+        private Button butEqual;
+        private Button but0;
+        private Button but4;
+        private Button but5;
+        private Button but6;
+        private Button but7;
+        private Button but8;
+        private Button but9;
+        private TextBox txtBoxOut;
     }
 }

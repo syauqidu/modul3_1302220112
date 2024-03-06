@@ -1,0 +1,17 @@
+D:\New folder\modul3_1302220112\modul3_1302220112\bin\Debug\net8.0-windows\modul3_1302220112.exe
+D:\New folder\modul3_1302220112\modul3_1302220112\bin\Debug\net8.0-windows\modul3_1302220112.deps.json
+D:\New folder\modul3_1302220112\modul3_1302220112\bin\Debug\net8.0-windows\modul3_1302220112.runtimeconfig.json
+D:\New folder\modul3_1302220112\modul3_1302220112\bin\Debug\net8.0-windows\modul3_1302220112.dll
+D:\New folder\modul3_1302220112\modul3_1302220112\bin\Debug\net8.0-windows\modul3_1302220112.pdb
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\modul3_1302220112.Form1.resources
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\modul3_1302220112.csproj.GenerateResource.cache
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\modul3_1302220112.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\modul3_1302220112.AssemblyInfoInputs.cache
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\modul3_1302220112.AssemblyInfo.cs
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\modul3_1302220112.csproj.CoreCompileInputs.cache
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\modul3_1302220112.sourcelink.json
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\modul3_1302220112.dll
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\refint\modul3_1302220112.dll
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\modul3_1302220112.pdb
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\modul3_1302220112.genruntimeconfig.cache
+D:\New folder\modul3_1302220112\modul3_1302220112\obj\Debug\net8.0-windows\ref\modul3_1302220112.dll
